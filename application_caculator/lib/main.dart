@@ -22,7 +22,7 @@ class Calculator extends StatefulWidget {
 
 class _CalculatorState extends State<Calculator> {
   dynamic displaytxt = 20;
-
+//thiết kế widget
   Widget calcbutton(String btntxt, Color btncolor, Color txtcolor) {
     return Container(
       child: SizedBox(
@@ -101,6 +101,7 @@ class _CalculatorState extends State<Calculator> {
                 ],
               ),
             ),
+            // xử lý sự kiện cho các button
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -166,3 +167,4 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 }
+//End
